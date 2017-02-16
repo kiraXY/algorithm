@@ -1,4 +1,4 @@
-package datastructure.node;
+package datastructure.nodeList;
 
 /**
  * Created by wangning on 2017/2/14.

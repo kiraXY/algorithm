@@ -58,6 +58,11 @@ public class AVLTest {
 
                 return o1.compareTo(o2);
             }
+
+            @Override
+            public boolean equal(Object data, Object obj) {
+                return false;
+            }
         };
 
         a1.insert(6, strategy);

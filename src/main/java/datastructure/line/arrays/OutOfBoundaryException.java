@@ -8,7 +8,7 @@ package datastructure.line.arrays;
  */
 @SuppressWarnings("serial")
 public class OutOfBoundaryException extends RuntimeException{
-	OutOfBoundaryException(String err) {
+	public OutOfBoundaryException(String err) {
 		super(err);
 	}
 }

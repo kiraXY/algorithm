@@ -6,7 +6,7 @@ import org.junit.Test;
 import datastructure.Node;
 import datastructure.line.nodeList.doubleNodeList.DLNode;
 import datastructure.line.nodeList.doubleNodeList.Iterator.Iterator;
-import datastructure.strategy.Strategy;
+import datastructure.nodeList.DefaultStrategy;
 import datastructure.tree.binTree.BinTreeNode;
 
 /**
@@ -71,7 +71,7 @@ public class BSTTreeTest {
     @Test
     public void test1() {
 
-        Node result = a.search(17, new Strategy() {
+        Node result = a.search(17, new DefaultStrategy() {
             @Override
             public int compare(Object obj1, Object obj2) {
                 Integer o1 = (Integer)obj1;
@@ -119,7 +119,7 @@ public class BSTTreeTest {
         }
 
 
-        a.insert(7, new Strategy() {
+        a.insert(7, new DefaultStrategy() {
             @Override
             public int compare(Object obj1, Object obj2) {
                 Integer o1 = (Integer)obj1;
@@ -190,7 +190,7 @@ public class BSTTreeTest {
         System.out.println("删除前的根节点：" + a.getRoot().getData());
 
 
-        a.remove(15, new Strategy() {
+        a.remove(15, new DefaultStrategy() {
             @Override
             public int compare(Object obj1, Object obj2) {
                 Integer o1 = (Integer)obj1;

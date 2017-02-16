@@ -6,4 +6,7 @@ package datastructure.strategy;
 public interface Strategy {
 
     int compare(Object obj1, Object obj2);
+
+
+    boolean equal(Object data, Object obj);
 }
