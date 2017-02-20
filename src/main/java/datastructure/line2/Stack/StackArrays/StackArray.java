@@ -1,6 +1,6 @@
-package datastructure.Stack.StackArrays;
+package datastructure.line2.Stack.StackArrays;
 
-import datastructure.Stack.Stack;
+import datastructure.line2.Stack.Stack;
 import datastructure.line.stack.StackEmptyException;
 
 /**

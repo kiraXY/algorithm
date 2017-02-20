@@ -1,4 +1,4 @@
-package datastructure.nodeList;
+package datastructure.line2.nodeList;
 
 import java.util.Iterator;
 
@@ -144,6 +144,6 @@ public class LinkedListDLNode implements LinkedList {
 
     //元素迭代器
     public Iterator elements() {
-        return new LinkedListIterator(this);
+        return (Iterator) new LinkedListIterator(this);
     }
 }

@@ -1,4 +1,4 @@
-package datastructure.Queue;
+package datastructure.line2.Queue;
 
 /**
  * Created by wangning on 2017/2/16.

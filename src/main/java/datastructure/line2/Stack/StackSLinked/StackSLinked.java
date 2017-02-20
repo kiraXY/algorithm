@@ -1,8 +1,8 @@
-package datastructure.Stack.StackSLinked;
+package datastructure.line2.Stack.StackSLinked;
 
-import datastructure.Stack.Stack;
-import datastructure.Stack.StackEmptyException;
-import datastructure.nodeList.SLNode;
+import datastructure.line2.Stack.Stack;
+import datastructure.line2.Stack.StackEmptyException;
+import datastructure.line2.nodeList.SLNode;
 
 /**
  * Created by wangning on 2017/2/16.

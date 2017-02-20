@@ -1,6 +1,6 @@
-package datastructure.Queue;
+package datastructure.line2.Queue;
 
-import datastructure.nodeList.SLNode;
+import datastructure.line2.nodeList.SLNode;
 
 /**
  * Created by wangning on 2017/2/16.

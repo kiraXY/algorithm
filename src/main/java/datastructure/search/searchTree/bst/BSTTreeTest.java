@@ -6,7 +6,7 @@ import org.junit.Test;
 import datastructure.Node;
 import datastructure.line.nodeList.doubleNodeList.DLNode;
 import datastructure.line.nodeList.doubleNodeList.Iterator.Iterator;
-import datastructure.nodeList.DefaultStrategy;
+import datastructure.line2.nodeList.DefaultStrategy;
 import datastructure.tree.binTree.BinTreeNode;
 
 /**

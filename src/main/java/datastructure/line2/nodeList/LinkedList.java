@@ -1,4 +1,4 @@
-package datastructure.nodeList;
+package datastructure.line2.nodeList;
 
 import java.util.Iterator;
 

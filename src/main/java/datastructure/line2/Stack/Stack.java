@@ -1,4 +1,4 @@
-package datastructure.Stack;
+package datastructure.line2.Stack;
 
 /**
  * Created by wangning on 2017/2/16.

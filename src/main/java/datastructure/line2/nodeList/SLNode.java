@@ -1,4 +1,4 @@
-package datastructure.nodeList;
+package datastructure.line2.nodeList;
 
 /**
  * Created by wangning on 2017/2/14.

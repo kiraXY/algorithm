@@ -206,7 +206,7 @@ public class Maze {
 		Cell end = new Cell(1, 7, false, '0');
 		
 		Maze m = new Maze(start, end, maze);
-//		Cell[][] cells = m.createCellArray(maze);
+//		Cell[][] cells = m.createCellArray(Cell);
 		
 		System.out.println("=================================");
 		// 打印迷宫
