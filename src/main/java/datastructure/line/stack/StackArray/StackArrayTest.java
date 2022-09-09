@@ -1,10 +1,10 @@
 package datastructure.line.stack.StackArray;
 
-import org.junit.Test;
+
 
 public class StackArrayTest {
 
-	@Test
+	
 	public void test() {
 		StackArray<Integer> s = new StackArray<Integer>();
 		

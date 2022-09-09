@@ -1,7 +1,7 @@
 package datastructure.tree.binTree;
 
-import org.junit.Before;
-import org.junit.Test;
+
+
 
 import datastructure.line.nodeList.doubleNodeList.DLNode;
 import datastructure.line.nodeList.doubleNodeList.Iterator.Iterator;
@@ -35,7 +35,7 @@ public class BinTreeTest {
      *
      *
      */
-    @Before
+    
     public void before() {
         System.out.println("建立基础二叉树结构");
 
@@ -65,7 +65,7 @@ public class BinTreeTest {
 
     }
 
-    @Test
+    
     public void test() {
         System.out.println("开始遍历");
         Iterator it = a.preOrder();
@@ -79,7 +79,7 @@ public class BinTreeTest {
 
     }
 
-    @Test
+    
     public void test2() {
         System.out.println("开始遍历");
         Iterator it = a.postOrder();
@@ -94,7 +94,7 @@ public class BinTreeTest {
 
 
 
-    @Test
+    
     public void test3() {
         System.out.println("开始查找");
 

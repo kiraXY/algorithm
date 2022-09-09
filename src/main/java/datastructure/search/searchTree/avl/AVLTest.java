@@ -1,7 +1,6 @@
 package datastructure.search.searchTree.avl;
 
-import org.junit.Before;
-import org.junit.Test;
+
 
 import datastructure.line.nodeList.doubleNodeList.DLNode;
 import datastructure.line.nodeList.doubleNodeList.Iterator.Iterator;
@@ -17,7 +16,6 @@ public class AVLTest {
 
     private BinTreeNode a2;
 
-    @Before
     public void before() {
 
         a1 = new AVLTree();
@@ -79,7 +77,7 @@ public class AVLTest {
     }
 
 
-    @Test
+    
     public void test() {
 
         System.out.println("插入前排序");

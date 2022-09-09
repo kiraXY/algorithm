@@ -1,7 +1,7 @@
 package datastructure.search.searchTree.bst;
 
-import org.junit.Before;
-import org.junit.Test;
+
+
 
 import datastructure.Node;
 import datastructure.line.nodeList.doubleNodeList.DLNode;
@@ -30,7 +30,7 @@ public class BSTTreeTest {
      *
      *
      */
-    @Before
+    
     public void before() {
         System.out.println("建立基础二叉树结构");
 
@@ -68,7 +68,7 @@ public class BSTTreeTest {
     /**
      * 二叉树的查找测试
      */
-    @Test
+    
     public void test1() {
 
         Node result = a.search(17, new DefaultStrategy() {
@@ -88,7 +88,7 @@ public class BSTTreeTest {
     /**
      * 二叉树的最大最小值测试
      */
-    @Test
+    
     public void test2() {
 
         Integer max = (Integer) a.max().getData();
@@ -103,7 +103,7 @@ public class BSTTreeTest {
     /**
      * 二叉树的插入测试
      */
-    @Test
+    
     public void test3() {
         System.out.println();
         System.out.println();
@@ -150,7 +150,7 @@ public class BSTTreeTest {
     /**
      * 二叉树的前驱后驱测试
      */
-    @Test
+    
     public void test4() {
 
         BinTreeNode a1 = (BinTreeNode) b.getPre();
@@ -175,7 +175,7 @@ public class BSTTreeTest {
     /**
      * 二叉树的删除测试
      */
-    @Test
+    
     public void test5() {
 
         System.out.println("删除前排序");

@@ -7,7 +7,7 @@ import datastructure.line2.nodeList.SLNode;
 /**
  * Created by wangning on 2017/2/16.
  */
-public class StackSLinked implements Stack {
+public class StackSLinked implements Stack<Number> {
     private SLNode top; //链表首结点引
     private int size; //栈的大小
 

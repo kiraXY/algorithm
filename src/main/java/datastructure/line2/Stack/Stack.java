@@ -3,7 +3,7 @@ package datastructure.line2.Stack;
 /**
  * Created by wangning on 2017/2/16.
  */
-public interface Stack {
+public interface Stack<I extends Number> {
     //返回堆栈的大小
     public int getSize();
     //判断堆栈是否为空

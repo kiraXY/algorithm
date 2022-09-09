@@ -13,7 +13,7 @@ public class bracketMatch {
     }
 
     public static boolean bracketMatch(String str) {
-        Stack s = new StackSLinked();
+        Stack<Number> s = new StackSLinked();
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             switch (c) {

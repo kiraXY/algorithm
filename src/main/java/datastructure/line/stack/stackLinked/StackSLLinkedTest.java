@@ -1,6 +1,6 @@
 package datastructure.line.stack.stackLinked;
 
-import org.junit.Test;
+
 
 /**
  * 基于链表 的 栈
@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class StackSLLinkedTest {
 
-	@Test
+	
 	public void test() {
 		StackSLLinked s = new StackSLLinked();
 		

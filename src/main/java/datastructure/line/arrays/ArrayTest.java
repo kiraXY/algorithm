@@ -1,11 +1,9 @@
 package datastructure.line.arrays;
 
 
-import org.junit.Test;
 
 public class ArrayTest {
 
-	@Test
 	public void insert() {
 
 		MyArray test = new MyArray(6);

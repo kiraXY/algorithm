@@ -1,10 +1,10 @@
 package datastructure.line.queue.array;
 
-import org.junit.Test;
+
 
 public class QueueArrayTest {
 
-	@Test
+	
 	public void test() {
 		QueueArray q = new QueueArray();
 		

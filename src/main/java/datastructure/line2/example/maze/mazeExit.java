@@ -1,6 +1,6 @@
 package datastructure.line2.example.maze;
 
-import org.junit.Test;
+
 
 import datastructure.line2.Stack.Stack;
 import datastructure.line2.Stack.StackSLinked.StackSLinked;
@@ -10,7 +10,7 @@ import datastructure.line2.Stack.StackSLinked.StackSLinked;
  */
 public class mazeExit {
 
-    @Test
+    
     public void asd (){
         char [] [] arr = {{1,1,1,1,1,1,1,1,1,1},
                           {1,0,0,1,1,1,0,0,1,1},
@@ -29,7 +29,7 @@ public class mazeExit {
     public void mazeExit(char[][] maze, int sx, int sy, int ex, int ey) {
         Cell[][] cells = createMaze(maze);  //创建化迷宫
         printMaze(cells);                   //打印迷宫
-        Stack s = new StackSLinked();       //构造堆栈
+        Stack<Number> s = new StackSLinked();       //构造堆栈
         Cell startCell = cells[sx][sy];     //起点
         Cell endCell = cells[ex][ey];       //终点
         s.push(startCell);                  //起点入栈

@@ -6,7 +6,7 @@ import datastructure.line.stack.StackEmptyException;
 /**
  * Created by wangning on 2017/2/16.
  */
-public class StackArray implements Stack {
+public class StackArray implements Stack<Number> {
     private final int LEN = 8;//数组的默认大小
     private Object[] elements;// 数据元素数组
     private int top;//栈顶指针

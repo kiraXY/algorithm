@@ -1,13 +1,13 @@
 package datastructure.search.half;
 
-import org.junit.Test;
+
 
 /**
  * Created by wangning on 17/2/7.
  */
 public class HalfSearchTest {
 
-    @Test
+    
     public void test() {
 
         int[] arr = {1, 2, 15, 20, 26, 27, 28, 30, 45, 55, 60, 66, 72, 77, 80, 88, 99};
@@ -20,7 +20,7 @@ public class HalfSearchTest {
     }
 
 
-    @Test
+    
     public void test2() {
         int[] arr = {1, 2, 15, 20, 26, 27, 28, 30, 45, 55, 60, 66, 72, 77, 80, 88, 99, 106};
         int key = -10;

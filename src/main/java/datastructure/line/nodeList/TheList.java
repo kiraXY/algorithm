@@ -1,6 +1,6 @@
 package datastructure.line.nodeList;
 
-import org.junit.Test;
+
 
 import datastructure.line.nodeList.single.ListSLinked;
 
@@ -11,7 +11,7 @@ import datastructure.line.nodeList.single.ListSLinked;
  */
 public class TheList {
 
-	@Test
+	
 	public void test() {
 		ListSLinked l = new ListSLinked();
 		

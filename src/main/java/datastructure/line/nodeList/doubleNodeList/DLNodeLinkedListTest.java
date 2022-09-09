@@ -1,12 +1,10 @@
 package datastructure.line.nodeList.doubleNodeList;
 
-import org.junit.Test;
 
 import datastructure.line.nodeList.doubleNodeList.Iterator.Iterator;
 
 public class DLNodeLinkedListTest {
 
-	@Test
 	public void test() {
 		LinkedListDLNote l = new LinkedListDLNote();
 		

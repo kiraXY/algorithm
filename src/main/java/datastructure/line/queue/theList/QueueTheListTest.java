@@ -1,10 +1,10 @@
 package datastructure.line.queue.theList;
 
-import org.junit.Test;
+
 
 public class QueueTheListTest {
 
-	@Test
+	
 	public void test() {
 		QueueTheList q = new QueueTheList();
 		
