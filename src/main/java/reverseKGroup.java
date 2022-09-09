@@ -27,11 +27,11 @@ public class reverseKGroup {
         ListNode end = dy;
         ListNode pre = dy;
         while (end.hasNext()) {
-            for (int i = 0; i < k && end.getNext() != null; i++) {
-                end = end.getNext();
+            for (int i = 0; i < k && end.next() != null; i++) {
+                end = end.next();
             }
-            ListNode next =end.getNext();
-            ListNode start=pre.getNext();
+            ListNode next =end.next();
+            ListNode start=pre.next();
             end.setNext(null);
             end=next;
 //            pre.setNext( revers(start));
@@ -47,7 +47,7 @@ public class reverseKGroup {
         ListNode pre=null;
         ListNode cur=head;
         while (cur!=null){
-            ListNode next = cur.getNext();
+            ListNode next = cur.next();
             cur.setNext(pre);
             pre=cur;
             cur=next;
@@ -56,12 +56,12 @@ public class reverseKGroup {
 
     }
     private static ListNode reverss(ListNode head) {
-        if(head==null|| head.getNext()==null){
+        if(head==null|| head.next()==null){
             return head;
         }
 
-        ListNode rever=reverss(head.getNext());
-        head.getNext().setNext(head);
+        ListNode rever=reverss(head.next());
+        head.next().setNext(head);
 //        rever.setNext(head);
         head.setNext(null);
         return rever;
@@ -72,12 +72,12 @@ public class reverseKGroup {
 
 
     private static ListNode reverss2(ListNode head) {
-        if(head==null|| head.getNext()==null){
+        if(head==null|| head.next()==null){
             return head;
         }
 
-        ListNode rever=reverss(head.getNext());
-        head.getNext().setNext(head);
+        ListNode rever=reverss(head.next());
+        head.next().setNext(head);
 //        rever.setNext(head);
         head.setNext(null);
         return rever;
@@ -88,7 +88,7 @@ public class reverseKGroup {
         ListNode pre = null;
         ListNode curr = head;
         while (curr != null) {
-            ListNode next = curr.getNext();
+            ListNode next = curr.next();
             curr.setNext(pre);
             pre = curr;
             curr = next;

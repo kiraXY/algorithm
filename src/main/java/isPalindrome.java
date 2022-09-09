@@ -1,8 +1,5 @@
 import datastructure.line2.ListNode;
 
-import java.util.List;
-import java.util.Map;
-
 public class isPalindrome {
 
     public static void main(String[] args) {
@@ -23,39 +20,39 @@ public class isPalindrome {
 
     public static boolean isPalindrome(ListNode head) {
 
-        if (head == null || head.getNext() == null) {
+        if (head == null || head.next() == null) {
             return true;
         }
-        if ((head.getValue() != head.getNext().getValue()) && head.getNext().getNext() == null) {
+        if ((head.getValue() != head.next().getValue()) && head.next().next() == null) {
             return false;
         }
         ListNode pre = head;
-        ListNode next = head.getNext();
+        ListNode next = head.next();
 
         boolean isEven = true;
         while (next.hasNext()) {
             if (next.hasNext()) {
-                next = next.getNext();
+                next = next.next();
             }
 
             if (!next.hasNext()) {
                 isEven=false;
             } else {
-                next = next.getNext();
+                next = next.next();
             }
             if(!isEven){
                 break;
             }
-            pre = pre.getNext();
+            pre = pre.next();
         }
-        ListNode tail = revert(isEven?pre.getNext():pre.getNext().getNext());
+        ListNode tail = revert(isEven?pre.next():pre.next().next());
 
         while (tail.hasNext()) {
             if (tail.getValue() != head.getValue()) {
                 return false;
             }
-            tail = tail.getNext();
-            head = head.getNext();
+            tail = tail.next();
+            head = head.next();
         }
 
 
@@ -68,7 +65,7 @@ public class isPalindrome {
         ListNode cur = head;
 
         while (cur != null) {
-            ListNode next = cur.getNext();
+            ListNode next = cur.next();
             cur.setNext(pre);
             pre = cur;
             cur = next;

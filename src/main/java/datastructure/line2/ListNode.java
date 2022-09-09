@@ -19,7 +19,7 @@ public class ListNode {
         this.value = value;
     }
 
-    public ListNode getNext() {
+    public ListNode next() {
         return next;
     }
 

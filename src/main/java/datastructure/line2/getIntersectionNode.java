@@ -14,13 +14,13 @@ public class getIntersectionNode {
             if(pointA==null){
                 pointA=headB;
             }else {
-                pointA=pointA.getNext();
+                pointA=pointA.next();
             }
 
             if(pointB==null){
                 pointB=headA;
             }else {
-                pointB=pointB.getNext();
+                pointB=pointB.next();
             }
         }
         return pointA;
