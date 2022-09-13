@@ -13,10 +13,18 @@ public class oddEvenList {
         c.setNext(d);
         d.setNext(e);
 //        e.setNext(f);
-        oddEvenList(a);
+        reversePrint(a);
+//        oddEvenList(a);
         System.out.println();
     }
 
+    public static void reversePrint(ListNode head){
+
+        if(head.next()!=null){
+            reversePrint(head.next());
+        }
+        System.out.println(head.getValue());
+    }
     public static void oddEvenList(ListNode head) {
         if (head == null || head.next() == null) {
             return;
